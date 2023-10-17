@@ -5,22 +5,22 @@
  * For full license information, please view the LICENSE file that was distributed with this source code.
  */
 
-namespace Spryker\Zed\ProductOfferWarehouseAllocationExample\Business\Allocator;
+namespace SprykerExample\Zed\ProductOfferWarehouseAllocationExample\Business\Allocator;
 
 use Generated\Shared\Transfer\ItemTransfer;
 use Generated\Shared\Transfer\OrderTransfer;
 use Generated\Shared\Transfer\ProductOfferWarehouseCriteriaTransfer;
-use Spryker\Zed\ProductOfferWarehouseAllocationExample\Persistence\ProductOfferWarehouseAllocationExampleRepositoryInterface;
+use SprykerExample\Zed\ProductOfferWarehouseAllocationExample\Persistence\ProductOfferWarehouseAllocationExampleRepositoryInterface;
 
 class WarehouseAllocator implements WarehouseAllocatorInterface
 {
     /**
-     * @var \Spryker\Zed\ProductOfferWarehouseAllocationExample\Persistence\ProductOfferWarehouseAllocationExampleRepositoryInterface
+     * @var \SprykerExample\Zed\ProductOfferWarehouseAllocationExample\Persistence\ProductOfferWarehouseAllocationExampleRepositoryInterface
      */
     protected ProductOfferWarehouseAllocationExampleRepositoryInterface $productOfferWarehouseAllocationExampleRepository;
 
     /**
-     * @param \Spryker\Zed\ProductOfferWarehouseAllocationExample\Persistence\ProductOfferWarehouseAllocationExampleRepositoryInterface $productOfferWarehouseAllocationExampleRepository
+     * @param \SprykerExample\Zed\ProductOfferWarehouseAllocationExample\Persistence\ProductOfferWarehouseAllocationExampleRepositoryInterface $productOfferWarehouseAllocationExampleRepository
      */
     public function __construct(
         ProductOfferWarehouseAllocationExampleRepositoryInterface $productOfferWarehouseAllocationExampleRepository
