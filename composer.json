@@ -1,5 +1,5 @@
 {
-    "name": "spryker/product-offer-warehouse-allocation-example",
+    "name": "spryker-example/product-offer-warehouse-allocation-example",
     "type": "library",
     "description": "ProductOfferWarehouseAllocationExample module",
     "license": "MIT",
@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Spryker\\": "src/Spryker/"
+            "SprykerExample\\": "src/Spryker/"
         }
     },
     "autoload-dev": {
