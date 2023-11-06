@@ -5,15 +5,15 @@
  * For full license information, please view the LICENSE file that was distributed with this source code.
  */
 
-namespace Spryker\Zed\ProductOfferWarehouseAllocationExample\Persistence;
+namespace SprykerExample\Zed\ProductOfferWarehouseAllocationExample\Persistence;
 
 use Orm\Zed\ProductOfferStock\Persistence\SpyProductOfferStockQuery;
 use Spryker\Zed\Kernel\Persistence\AbstractPersistenceFactory;
-use Spryker\Zed\ProductOfferWarehouseAllocationExample\ProductOfferWarehouseAllocationExampleDependencyProvider;
+use SprykerExample\Zed\ProductOfferWarehouseAllocationExample\ProductOfferWarehouseAllocationExampleDependencyProvider;
 
 /**
- * @method \Spryker\Zed\ProductOfferWarehouseAllocationExample\Persistence\ProductOfferWarehouseAllocationExampleRepositoryInterface getRepository()
- * @method \Spryker\Zed\ProductOfferWarehouseAllocationExample\ProductOfferWarehouseAllocationExampleConfig getConfig()
+ * @method \SprykerExample\Zed\ProductOfferWarehouseAllocationExample\Persistence\ProductOfferWarehouseAllocationExampleRepositoryInterface getRepository()
+ * @method \SprykerExample\Zed\ProductOfferWarehouseAllocationExample\ProductOfferWarehouseAllocationExampleConfig getConfig()
  */
 class ProductOfferWarehouseAllocationExamplePersistenceFactory extends AbstractPersistenceFactory
 {

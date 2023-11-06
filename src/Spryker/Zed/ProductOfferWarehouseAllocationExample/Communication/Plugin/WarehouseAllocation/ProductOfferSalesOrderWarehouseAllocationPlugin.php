@@ -5,15 +5,15 @@
  * For full license information, please view the LICENSE file that was distributed with this source code.
  */
 
-namespace Spryker\Zed\ProductOfferWarehouseAllocationExample\Communication\Plugin\WarehouseAllocation;
+namespace SprykerExample\Zed\ProductOfferWarehouseAllocationExample\Communication\Plugin\WarehouseAllocation;
 
 use Generated\Shared\Transfer\OrderTransfer;
 use Spryker\Zed\Kernel\Communication\AbstractPlugin;
 use Spryker\Zed\WarehouseAllocationExtension\Dependency\Plugin\SalesOrderWarehouseAllocationPluginInterface;
 
 /**
- * @method \Spryker\Zed\ProductOfferWarehouseAllocationExample\Business\ProductOfferWarehouseAllocationExampleFacadeInterface getFacade()
- * @method \Spryker\Zed\ProductOfferWarehouseAllocationExample\ProductOfferWarehouseAllocationExampleConfig getConfig()
+ * @method \SprykerExample\Zed\ProductOfferWarehouseAllocationExample\Business\ProductOfferWarehouseAllocationExampleFacadeInterface getFacade()
+ * @method \SprykerExample\Zed\ProductOfferWarehouseAllocationExample\ProductOfferWarehouseAllocationExampleConfig getConfig()
  */
 class ProductOfferSalesOrderWarehouseAllocationPlugin extends AbstractPlugin implements SalesOrderWarehouseAllocationPluginInterface
 {

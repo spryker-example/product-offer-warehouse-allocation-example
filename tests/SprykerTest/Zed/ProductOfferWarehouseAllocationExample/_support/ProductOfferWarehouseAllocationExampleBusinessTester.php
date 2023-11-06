@@ -25,7 +25,7 @@ use Orm\Zed\ProductOfferStock\Persistence\SpyProductOfferStockQuery;
  * @method void lookForwardTo($achieveValue)
  * @method void comment($description)
  * @method void pause($vars = [])
- * @method \Spryker\Zed\ProductOfferWarehouseAllocationExample\Business\ProductOfferWarehouseAllocationExampleFacadeInterface getFacade()
+ * @method \SprykerExample\Zed\ProductOfferWarehouseAllocationExample\Business\ProductOfferWarehouseAllocationExampleFacadeInterface getFacade()
  *
  * @SuppressWarnings(PHPMD)
  */
