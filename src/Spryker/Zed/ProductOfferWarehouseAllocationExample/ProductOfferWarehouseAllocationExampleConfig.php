@@ -5,7 +5,7 @@
  * For full license information, please view the LICENSE file that was distributed with this source code.
  */
 
-namespace Spryker\Zed\ProductOfferWarehouseAllocationExample;
+namespace SprykerExample\Zed\ProductOfferWarehouseAllocationExample;
 
 use Spryker\Zed\Kernel\AbstractBundleConfig;
 
